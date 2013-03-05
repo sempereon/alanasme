@@ -1,0 +1,218 @@
+{
+	"Alana":
+	{
+		"class": Player,
+		"sprites":
+		{
+			"sheet": "images/alana_kneel.png",
+			"kneel":
+			[
+				{
+					"x": 0,
+					"y": 0,
+					"width": 103,
+					"height": 100
+				}
+			]
+		},
+		"width": 103,
+		"height": 100,
+	},
+	"LARD":
+	{
+		"class": LARD,
+		"sprites":
+		{
+			"sheet": "images/characters.png",
+			"default":
+			[
+				{
+					"x": 0,
+					"y": 0,
+					"width": 75,
+					"height": 40
+				}
+			],
+			"attack":
+			[
+				{
+					"x": 76,
+					"y": 0,
+					"width": 77,
+					"height": 40
+				}
+			]
+		},
+		"width": 54,
+		"height": 30,
+		"attack_range": 50,
+		"power": 5,
+		"move_speed": 30,
+		"attack_rate": 4, // -1 = constant attack
+		"attack_duration": -1
+	},
+	"DrillDog":
+	{
+		"class": DrillDog,
+		"sprites":
+		{
+			"sheet": "images/characters.png",
+			"move":
+			[
+				{
+					"x": 0,
+					"y": 45,
+					"width": 79,
+					"height": 60
+				},
+				{
+					"x": 81,
+					"y": 45,
+					"width": 79,
+					"height": 60
+				}
+			],
+			"attack_head":
+			[
+				{
+					"x": 161,
+					"y": 48,
+					"width": 81,
+					"height": 57
+				},
+				{
+					"x": 244,
+					"y": 48,
+					"width": 81,
+					"height": 57
+				}
+			],
+			"attack_tail":
+			[
+				{
+					"x": 327,
+					"y": 58,
+					"width": 86,
+					"height": 47
+				},
+				{
+					"x": 415,
+					"y": 58,
+					"width": 86,
+					"height": 47
+				}
+			]
+		}
+	},
+	"HILM":
+	{
+		"class": HILM,
+		"sprites":
+		{
+			"sheet": "images/characters.png",
+			"default":
+			[
+				{
+					"x": 0,
+					"y": 100,
+					"width": 59,
+					"height": 60
+				}
+			],
+			"move":
+			[
+				{
+					"x": 64,
+					"y": 102,
+					"width": 73,
+					"height": 58
+				},
+				{
+					"x": 141,
+					"y": 102,
+					"width": 73,
+					"height": 58
+				}
+			],
+			"attack":
+			[
+				{
+					"x": 218,
+					"y": 110,
+					"width": 107,
+					"height": 70
+				},
+				{
+					"x": 330,
+					"y": 110,
+					"width": 90,
+					"height": 70
+				},
+				{
+					"x": 424,
+					"y": 110,
+					"width": 90,
+					"height": 70
+				}
+			]
+		},
+		"width": 50,
+		"height": 50,
+		"attack_range": 1,
+		"power": 15,
+		"move_speed": 80,
+		"attack_rate": 3, // Seconds of pausing between attacks.
+		"attack_duration": 2 // Seconds of attacking between pauses.
+	},
+	"Roller":
+	{
+		"class": Roller,
+		"sprites":
+		{
+			"sheet": "images/characters.png",
+			"move":
+			[
+				{
+					"x": 0,
+					"y": 185,
+					"width": 64,
+					"height": 80
+				},
+				{
+					"x": 70,
+					"y": 185,
+					"width": 64,
+					"height": 80
+				},
+				{
+					"x": 140,
+					"y": 185,
+					"width": 64,
+					"height": 80
+				}
+			],
+			"attack":
+			[
+				{
+					"x": 210,
+					"y": 185,
+					"width": 72,
+					"height": 83
+				},
+				{
+					"x": 285,
+					"y": 185,
+					"width": 64,
+					"height": 80
+				}
+			]
+		},
+		"width": 47,
+		"height": 60,
+		"attack_range": 100,
+		"power": 5,
+		"move_speed": 100,
+		"attack_rate": -1,
+		"attack_duration": -1
+	}
+}
